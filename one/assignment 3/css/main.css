@@ -1,0 +1,46 @@
+*{
+    padding:0px;
+    margin:0px;
+    font-family: "segoe ui light";
+}
+.change{
+    height: 900px;;
+    background-color:red;
+    background-image: url("../images/business-2.jpg");
+    background-size:100% 100%;
+    background-position: 100% 100%;
+  
+}
+
+.navigation{
+    overflow:auto;
+    width: 85%;
+    margin:auto;  
+
+}
+
+ul{
+    list-style-type: none;
+}
+.navigation ul li{
+    float:right;
+    padding:15px; 
+    
+
+}
+ul a{
+    text-decoration:none;
+    color: white;
+}
+.navigation ul .logo{
+    float: left;
+}
+.navigation ul .logo img{
+    width:120px;
+    padding:0px;
+}
+.overlay{
+    background-color: rgba(0, 0, 0,0.7);
+    height: 100vh;
+}
+
